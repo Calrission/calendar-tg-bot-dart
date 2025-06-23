@@ -3,6 +3,7 @@ import 'package:televerse/televerse.dart';
 
 abstract class Handler {
   FutureOr<void> handle(Context ctx);
+
   void register(Bot bot);
 
   FutureOr<void> Function(Context ctx) get _handler => handle;
@@ -10,6 +11,7 @@ abstract class Handler {
 
 abstract class FilteringHandler extends Handler {
   bool filter(Context ctx);
+
   bool Function(Context ctx) get _filter => filter;
 
   @override

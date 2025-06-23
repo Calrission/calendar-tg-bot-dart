@@ -1,5 +1,5 @@
+import 'package:my_calendar_tg_bot_dart/bot/core/handlers/handler.dart';
 import 'package:televerse/televerse.dart';
-import 'handler.dart';
 
 class PingHandler extends CommandHandler {
   @override
