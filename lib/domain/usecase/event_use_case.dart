@@ -1,6 +1,6 @@
 import 'package:my_calendar_tg_bot_dart/domain/exception/domain_exception.dart';
 import 'package:my_calendar_tg_bot_dart/domain/models/event_model.dart';
-import 'package:my_calendar_tg_bot_dart/domain/repository/abstract_event_repository.dart';
+import 'package:my_calendar_tg_bot_dart/domain/repository/event_repository.dart';
 import 'package:my_calendar_tg_bot_dart/domain/models/result.dart';
 import 'package:my_calendar_tg_bot_dart/domain/usecase/usecase.dart';
 
